@@ -34,12 +34,12 @@
                 password = password + allChars[Math.floor(Math.random()*allChars.length)];
             }
             passwordBox.value=password;
-            document.getElementById("imageChange").src = "images/copy.png";
+            document.getElementById("imageChange").src = "copy.png";
         }
         function copyPassword(){
             passwordBox.select();
             document.execCommand("copy");
-            document.getElementById("imageChange").src = "images/tick.png";
+            document.getElementById("imageChange").src = "tick.png";
 
         }
     </script>
